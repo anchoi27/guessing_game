@@ -1,0 +1,21 @@
+body {
+	text-align: center;
+	font-family: georgia;
+	background-image: url("../image/background-pattern.jpg");
+}
+h1 {
+	color: white;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+h2 {
+	padding-bottom: 20px;
+}
+
+.please {
+	font-style: italic;
+	font-size: 15px;
+	border-color: white;
+}
