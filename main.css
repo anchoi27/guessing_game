@@ -1,0 +1,43 @@
+html, body, h1, h2 {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: georgia;
+	background-image: url("./image/background-pattern.jpg");
+}
+h1 {
+	color: white;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+h2 {
+	padding-bottom: 20px;
+}
+
+.please {
+	font-style: italic;
+	font-size: 15px;
+	border-color: white;
+}
+
+.winner {
+	position: center;
+	display: none;
+	font-size: 20px;
+	font-color: white;
+	font-weight: bold;
+}
+
+.loser {
+	position: center;
+	display: none;
+	font-size: 20px;
+	font-color: white;
+	font-weight: bold;
+}

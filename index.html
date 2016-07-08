@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="./main.css">
+	<script type="text/javascript" src='./guessingGame.js'></script>
+	<title>Guessing game!</title>
+</head>
+<body>
+	<div id="gussing">
+		<h1>?? Guessing Game ???</h1>
+		<h2>Guess a number</h2>
+		<p class="loser"><img src="./image/loser.jpg"><br>You have lost the game.<br>If you want to play again, please click the 'play again?' button.<br></p>
+		<p class="winner"><img src="./image/winner.jpeg"><br>CONGRATULATIONS, YOU WON!!!!!!</p>
+		<p><img src="./image/guessing-games.jpg"></p>
+		<form class="user" onsubmit="playersGuessSubmission(event)">
+			<input id="userinput" type="text" name="submit">
+			<button id="usersubmit" type="button">SUBMIT</button>
+			<p class="please">Please guess a number between 1 and 100</input>
+		</form></p>
+		<p>
+		<form class="buttons">
+			<button id="hint" style="height:50px;width:100px">HINT</button>
+		</form>
+		<br>
+		<form>
+			<button id="playagain" style="height:50px;width:100px">play again?</button></p>
+		</form>
+	</div>
+</body>
+</html>
