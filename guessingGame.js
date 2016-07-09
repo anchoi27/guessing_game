@@ -1,5 +1,3 @@
-/* **** Global Variables **** */
-// try to elminate these global variables in your project, these are here just to start.
 (function () { 
 	var playersGuess;
 	var winningNumber;
@@ -48,7 +46,7 @@
 	function countRemaining(){
 		var remain = (5 - players);
 		if (remain > 0){
-			alert('Also You have '+remain+' guesses left!!!');
+			alert('Also You have '+remain+' guesses left!!!'); //used 'alert' here in order to remind the user. (all the other messages are shown using DOM.)
 		} else{
 			$('.loser').show();
 			$('.loser').append('<p class="answer">The answer was '+winningNumber+'!</p>');
